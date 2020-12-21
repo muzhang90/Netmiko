@@ -1,0 +1,105 @@
+Last login: Mon Dec 21 13:27:51 2020 from 10.110.23.187
+--- JUNOS 19.3R3.6 Kernel 64-bit  JNPR-11.0-20200710.a76c78d_buil
+labroot@grapevine-re0> 
+
+labroot@grapevine-re0> 
+
+labroot@grapevine-re0> cli
+                       ^
+unknown command.
+
+labroot@grapevine-re0> 
+
+labroot@grapevine-re0> 
+
+labroot@grapevine-re0> set cli complete-on-space off 
+Disabling complete-on-space
+
+labroot@grapevine-re0> set cli screen-width 511 
+Screen width set to 511
+
+labroot@grapevine-re0> set cli screen-length 0 
+Screen length set to 0
+
+labroot@grapevine-re0> 
+
+labroot@grapevine-re0> 
+
+labroot@grapevine-re0> show version 
+Hostname: grapevine-re0
+Model: mx960
+Junos: 19.3R3.6
+JUNOS OS Kernel 64-bit  [20200710.a76c78d_builder_stable_11]
+JUNOS OS libs [20200710.a76c78d_builder_stable_11]
+JUNOS OS runtime [20200710.a76c78d_builder_stable_11]
+JUNOS OS time zone information [20200710.a76c78d_builder_stable_11]
+JUNOS network stack and utilities [20200828.051203_builder_junos_193_r3]
+JUNOS libs [20200828.051203_builder_junos_193_r3]
+JUNOS OS libs compat32 [20200710.a76c78d_builder_stable_11]
+JUNOS OS 32-bit compatibility [20200710.a76c78d_builder_stable_11]
+JUNOS libs compat32 [20200828.051203_builder_junos_193_r3]
+JUNOS runtime [20200828.051203_builder_junos_193_r3]
+JUNOS sflow mx [20200828.051203_builder_junos_193_r3]
+JUNOS py extensions [20200828.051203_builder_junos_193_r3]
+JUNOS py base [20200828.051203_builder_junos_193_r3]
+JUNOS OS crypto [20200710.a76c78d_builder_stable_11]
+JUNOS na telemetry [19.3R3.6]
+JUNOS Web Management [20200828.051203_builder_junos_193_r3]
+JUNOS Security Intelligence [20200828.051203_builder_junos_193_r3]
+JUNOS mx libs compat32 [20200828.051203_builder_junos_193_r3]
+JUNOS mx runtime [20200828.051203_builder_junos_193_r3]
+JUNOS RPD Telemetry Application [19.3R3.6]
+JUNOS common platform support [20200828.051203_builder_junos_193_r3]
+JUNOS Openconfig [19.3R3.6]
+JUNOS mtx network modules [20200828.051203_builder_junos_193_r3]
+JUNOS modules [20200828.051203_builder_junos_193_r3]
+JUNOS mx modules [20200828.051203_builder_junos_193_r3]
+JUNOS mx libs [20200828.051203_builder_junos_193_r3]
+JUNOS SQL Sync Daemon [20200828.051203_builder_junos_193_r3]
+JUNOS mtx Data Plane Crypto Support [20200828.051203_builder_junos_193_r3]
+JUNOS daemons [20200828.051203_builder_junos_193_r3]
+JUNOS mx daemons [20200828.051203_builder_junos_193_r3]
+JUNOS appidd-mx application-identification daemon [20200828.051203_builder_junos_193_r3]
+JUNOS Services URL Filter package [20200828.051203_builder_junos_193_r3]
+JUNOS Services TLB Service PIC package [20200828.051203_builder_junos_193_r3]
+JUNOS Services Telemetry [20200828.051203_builder_junos_193_r3]
+JUNOS Services TCP-LOG [20200828.051203_builder_junos_193_r3]
+JUNOS Services SSL [20200828.051203_builder_junos_193_r3]
+JUNOS Services SOFTWIRE [20200828.051203_builder_junos_193_r3]
+JUNOS Services Stateful Firewall [20200828.051203_builder_junos_193_r3]
+JUNOS Services RTCOM [20200828.051203_builder_junos_193_r3]
+JUNOS Services RPM [20200828.051203_builder_junos_193_r3]
+JUNOS Services PCEF package [20200828.051203_builder_junos_193_r3]
+JUNOS Services NAT [20200828.051203_builder_junos_193_r3]
+JUNOS Services Mobile Subscriber Service Container package [20200828.051203_builder_junos_193_r3]
+JUNOS Services MobileNext Software package [20200828.051203_builder_junos_193_r3]
+JUNOS Services Logging Report Framework package [20200828.051203_builder_junos_193_r3]
+JUNOS Services LL-PDF Container package [20200828.051203_builder_junos_193_r3]
+JUNOS Services Jflow Container package [20200828.051203_builder_junos_193_r3]
+JUNOS Services Deep Packet Inspection package [20200828.051203_builder_junos_193_r3]
+JUNOS Services IPSec [20200828.051203_builder_junos_193_r3]
+JUNOS Services IDS [20200828.051203_builder_junos_193_r3]
+JUNOS IDP Services [20200828.051203_builder_junos_193_r3]
+JUNOS Services HTTP Content Management package [20200828.051203_builder_junos_193_r3]
+JUNOS Services Crypto [20200828.051203_builder_junos_193_r3]
+JUNOS Services Captive Portal and Content Delivery Container package [20200828.051203_builder_junos_193_r3]
+JUNOS Services COS [20200828.051203_builder_junos_193_r3]
+JUNOS AppId Services [20200828.051203_builder_junos_193_r3]
+JUNOS Services Application Level Gateways [20200828.051203_builder_junos_193_r3]
+JUNOS Services AACL Container package [20200828.051203_builder_junos_193_r3]
+JUNOS SDN Software Suite [20200828.051203_builder_junos_193_r3]
+JUNOS Extension Toolkit [20200828.051203_builder_junos_193_r3]
+JUNOS Packet Forwarding Engine Support (wrlinux9) [20200828.051203_builder_junos_193_r3]
+JUNOS Packet Forwarding Engine Support (MXSPC3) [19.3R3.6]
+JUNOS Packet Forwarding Engine Support (MX/EX92XX Common) [20200828.051203_builder_junos_193_r3]
+JUNOS Packet Forwarding Engine Support (M/T Common) [20200828.051203_builder_junos_193_r3]
+JUNOS Packet Forwarding Engine Support (aft) [20200828.051203_builder_junos_193_r3]
+JUNOS Packet Forwarding Engine Support (MX Common) [20200828.051203_builder_junos_193_r3]
+JUNOS Juniper Malware Removal Tool (JMRT) [1.0.0+20200828.051203_builder_junos_193_r3]
+JUNOS J-Insight [20200828.051203_builder_junos_193_r3]
+JUNOS jfirmware [20200828.051203_builder_junos_193_r3]
+JUNOS Online Documentation [20200828.051203_builder_junos_193_r3]
+JUNOS jail runtime [20200710.a76c78d_builder_stable_11]
+JUNOS FIPS mode utilities [20200828.051203_builder_junos_193_r3]
+
+labroot@grapevine-re0> 
